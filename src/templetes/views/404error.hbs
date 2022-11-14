@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {{>headerLinks}}
+
+</head>
+
+<body>
+    
+    {{>navbar}}
+
+    <!-- ******************************** -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main-header-left">
+                        <figure>
+                            <img src="images/404.png" style="width: 40vw ;" class="imag-fluid" alt="image">
+                        </figure>
+
+                        <p>Welcome to weather App</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******************************** -->
+
+    {{>footer}}
+
+
+</body>
+
+</html>
